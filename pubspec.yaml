@@ -1,11 +1,11 @@
 name: flimer
 description: Flutter plugin for picking images on Mobile, Desktop and Web.
 version: 1.0.2
-homepage: https://github.com/eyro-labs/flimer
+homepage: https://github.com/giancacsi/flimer
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.20.0"
+  sdk: ^3.8.0
+  flutter: ^2.12.0
 
 dependencies:
   flutter:
@@ -13,14 +13,14 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
 
-  cross_file: ^0.3.3+2
-  image_picker: ^0.8.6
-  image_picker_platform_interface: ^2.6.2
-  file_selector: ^0.9.2+2
-  file_selector_platform_interface: ^2.4.0
-  file_selector_macos: ^0.9.0+4
-  file_selector_windows: ^0.9.1+4
-  file_selector_linux: ^0.9.0+1
+  cross_file: ^0.3.4+2
+  image_picker: ^1.1.2
+  image_picker_platform_interface: ^2.10.1
+  file_selector: ^1.0.3
+  file_selector_platform_interface: ^2.6.2
+  file_selector_macos: ^0.9.4+3
+  file_selector_windows: ^0.9.3+4
+  file_selector_linux: ^0.9.3+2
 
 dev_dependencies:
   flutter_test:
@@ -30,7 +30,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.mesosfer.flimer
+        package: com.gs.flimer
         pluginClass: FlimerPlugin
       ios:
         pluginClass: FlimerPlugin

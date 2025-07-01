@@ -8,6 +8,8 @@ void main() {
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -16,8 +18,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     final ButtonStyle style = ElevatedButton.styleFrom(
-      primary: Colors.blue,
-      onPrimary: Colors.white,
+      backgroundColor: Colors.blue
     );
 
     return Scaffold(
@@ -30,20 +31,20 @@ class _MyAppState extends State<MyApp> {
           children: <Widget>[
             ElevatedButton(
               style: style,
-              child: Text('Open an image'),
               onPressed: _openImageFile,
+              child: Text('Open an image'),
             ),
             SizedBox(height: 8),
             ElevatedButton(
               style: style,
-              child: Text('Open multiple images'),
               onPressed: _openImageFiles,
+              child: Text('Open multiple images'),
             ),
             SizedBox(height: 8),
             ElevatedButton(
               style: style,
-              child: Text('Take a picture'),
               onPressed: _takePicture,
+              child: Text('Take a picture'),
             ),
           ],
         ),

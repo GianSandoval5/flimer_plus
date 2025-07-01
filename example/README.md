@@ -1,26 +1,16 @@
-# Flimer Example
+# example
 
-Demonstrates how to use the flimer plugin.
+A new Flutter project.
 
-## Pick a Single Image
+## Getting Started
 
-```dart
-final XFile? file = await flimer.pickImage(source: ImageSource.gallery);
-if (file == null) {
-  // Operation was canceled by the user.
-  return;
-}
-final String fileName = file.name;
-final String filePath = file.path;
-```
+This project is a starting point for a Flutter application.
 
-## Pick Multiple Images
+A few resources to get you started if this is your first Flutter project:
 
-```dart
-final List<XFile>? files = await flimer.pickImages();
-if (files == null || files.isEmpty) {
-  // Operation was canceled by the user.
-  return;
-}
-print("Selected images : ${files.length}")
-```
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
