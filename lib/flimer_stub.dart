@@ -1,8 +1,8 @@
-import 'package:flimer/flimer.dart';
+import 'package:flimer_plus/flimer_plus.dart';
 
-getFlimer() => FlimerStub();
+getFlimerPlus() => FlimerPlusStub();
 
-class FlimerStub implements Flimer {
+class FlimerPlusStub implements FlimerPlus {
   @override
   Future<XFile?> pickImage({
     ImageSource source = ImageSource.gallery,

@@ -13,15 +13,15 @@ export 'flimer_stub.dart'
     if (dart.library.io) 'flimer_io.dart'
     if (dart.library.html) 'flimer_html.dart';
 
-/// Global singleton [Flimer] instance
-final Flimer flimer = Flimer();
+/// Global singleton [FlimerPlus] instance
+final FlimerPlus flimerPlus = FlimerPlus();
 
-/// Flimer stands for Flutter Image Picker.
-abstract class Flimer {
+/// FlimerPlus stands for Flutter Image Picker Plus.
+abstract class FlimerPlus {
   static void registerWith() {}
 
-  /// Construct flimer using global platform getter.
-  factory Flimer() => getFlimer();
+  /// Construct flimerPlus using global platform getter.
+  factory FlimerPlus() => getFlimerPlus();
 
   /// Pick a single image.
   ///

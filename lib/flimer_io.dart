@@ -1,21 +1,15 @@
 import 'dart:io';
 
 import 'package:file_selector/file_selector.dart';
-import 'package:flimer/flimer.dart';
+import 'package:flimer_plus/flimer_plus.dart';
 import 'package:image_picker/image_picker.dart' as ip;
 
-getFlimer() => FlimerIO();
+getFlimerPlus() => FlimerPlusIO();
 
-class FlimerIO implements Flimer {
+class FlimerPlusIO implements FlimerPlus {
   final _typeGroup = XTypeGroup(
     label: 'images',
-    extensions: [
-      'jpg',
-      'jpeg',
-      'png',
-      'webp',
-      'bmp',
-    ],
+    extensions: ['jpg', 'jpeg', 'png', 'webp', 'bmp'],
   );
 
   @override

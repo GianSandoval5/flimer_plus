@@ -1,7 +1,7 @@
-name: flimer
+name: flimer_plus
 description: Flutter plugin for picking images on Mobile, Desktop and Web.
 version: 1.0.0
-homepage: https://github.com/GianSandoval5/flimer
+homepage: https://github.com/GianSandoval5/flimer_plus
 
 environment:
   sdk: ^3.8.0
