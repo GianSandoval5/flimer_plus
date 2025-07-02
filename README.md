@@ -254,7 +254,7 @@ Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICEN
 
 ## 🙋‍♂️ Soporte
 
-¡Si te gusta este paquete, por favor dale una ⭐ en [GitHub](https://github.com/GianSandoval5/flimer) y un 👍 en [pub.dev](https://pub.dev/packages/flimer)!
+¡Si te gusta este paquete, por favor dale una ⭐ en [GitHub](https://github.com/GianSandoval5/flimer_plus) y un 👍 en [pub.dev](https://pub.dev/packages/flimer_plus)!
 
-Para preguntas o problemas, por favor reporta un issue en [GitHub](https://github.com/GianSandoval5/flimer/issues).
+Para preguntas o problemas, por favor reporta un issue en [GitHub](https://github.com/GianSandoval5/flimer_plus/issues).
 
