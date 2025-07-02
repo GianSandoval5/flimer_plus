@@ -31,7 +31,7 @@ Agrega flimer plus a tu `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flimer: ^1.0.0
+  flimer_plus: ^1.0.0
 ```
 
 Luego ejecuta:
