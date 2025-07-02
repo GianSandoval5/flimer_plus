@@ -38,11 +38,11 @@ flutter:
         pluginClass: FlimerHtml
         fileName: flimer_html.dart
       macos:
-        dartPluginClass: Flimer
+        dartPluginClass: FlimerPlus
         pluginClass: none
       windows:
-        dartPluginClass: Flimer
+        dartPluginClass: FlimerPlus
         pluginClass: none
       linux:
-        dartPluginClass: Flimer
+        dartPluginClass: FlimerPlus
         pluginClass: none
