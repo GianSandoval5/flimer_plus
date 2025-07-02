@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flimer/flimer.dart';
+import 'package:flimer_plus/flimer_plus.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

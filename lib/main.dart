@@ -1,4 +1,4 @@
-import 'package:flimer/flimer.dart';
+import 'package:flimer_plus/flimer_plus.dart';
 import 'package:flutter/material.dart';
 
 import 'image_display.dart';
@@ -18,13 +18,11 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     final ButtonStyle style = ElevatedButton.styleFrom(
-      backgroundColor: Colors.blue
+      backgroundColor: Colors.blue,
     );
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Flimer'),
-      ),
+      appBar: AppBar(title: const Text('Flimer Plus')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -53,7 +51,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _openImageFile() async {
-    final file = await flimer.pickImage(source: ImageSource.gallery);
+    final file = await flimerPlus.pickImage(source: ImageSource.gallery);
     if (file == null) {
       // Operation was canceled by the user.
       return;
@@ -68,7 +66,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _openImageFiles() async {
-    final files = await flimer.pickImages();
+    final files = await flimerPlus.pickImages();
     if (files == null || files.isEmpty) {
       // Operation was canceled by the user.
       return;
@@ -81,7 +79,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _takePicture() async {
-    final file = await flimer.pickImage(source: ImageSource.camera);
+    final file = await flimerPlus.pickImage(source: ImageSource.camera);
     if (file == null) {
       // Operation was canceled by the user.
       return;
